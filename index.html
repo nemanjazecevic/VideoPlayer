@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Video player</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="video">
+            <video src="./video/clip2.mp4"></video>
+            <div class="controls">
+                <div class="time-bar">
+                    <div class="fill-bar"></div>
+                </div>
+                <div class="buttons">
+                    <div class="left-side">
+                        <button class="play-btn"><i class="far fa-play-circle"></i></button>
+                        <button class="pause-btn"><i class="far fa-pause-circle"></i></button>
+                        <button class="stop-btn"><i class="fas fa-stop"></i></button>
+                        <div class="volume">
+                            <button class="volume-btn"><i class="fas fa-volume-up"></i></button>
+                            <button class="muted-btn"><i class="fas fa-volume-mute"></i></button>
+                            <input class="range" type="range" value="50" min="0" max="100" step="1">
+                        </div>
+
+                    </div>
+                    <div class="right-side">
+                        <div class="btn-and-more">
+                            <button class="settings"><i class="fas fa-cog"></i></button>
+                            <div class="more">
+                                <div class="playback-speed">
+                                    <p class="speed-0.5">0.5</p>
+                                    <p class="speed-0.75">0.75</p>
+                                    <p class="speed-normal">Normal</p>
+                                    <p class="speed-1.5">1.5</p>
+                                    <p class="speed-2">2</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="full-scr-btn"><i class="fas fa-expand"></i></button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/233ba03606.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
