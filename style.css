@@ -35,7 +35,7 @@
     width: 100%;
     flex-wrap: wrap;
     background-color: rgba(0, 0, 0, 0.5);
-    /* transform: translateY(100%) translateY(-5px); */
+    transform: translateY(100%) translateY(-5px);
     transition: all 0.3s;
     opacity: 0.9;
 }
